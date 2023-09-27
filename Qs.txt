@@ -1,0 +1,12 @@
+Questions that I have:
+
+What is a div in html?
+
+Are there downsides to having a video in the
+background of a website? Does it take longer to load?
+
+What is h2, h3, and p in html?
+
+html is the formatting and placement
+CSS is the style 
+JavaScript is the animation and interaction. 
