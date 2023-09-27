@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title> Personal Portfolio Website for NKAY</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-    <video class="video-bg" vidoautoplay muted loop controls>
-        <source src="Videos/Hc-Trim.mp4" type="video/mp4">
-    </video>
-<div class="overlay"></div>
-<div class="text">
-    <h2>Welcome To</h2>
-    <h3>NKAY'S Goated Page</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iste suscipit reiciendis vero eaque error voluptatem nisi, possimus nam laboriosam delectus aut provident deleniti minima, exercitationem cupiditate consectetur nemo architecto!
-    </p>
-    <a href="#">Explore</a>
-    <ul class="social">
-        <!--<li><img src="instagram.png"</li>-->
-    </ul>
-</div>
-</body>
+    <head>
+        <title> Personal Portfolio Website for NKAY</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>I'm hosted with GitHub Pages.</p>
+            <video class="video-bg" video autoplay muted loop>
+                <source src="VideoAudio/Hc-Trim.mp4" type="video/mp4">
+            </video>
+            <audio autoplay loop id="Hollow">
+                <source src="VideoAudio/Hollow.mp3">
+                This browser does not support HTML5 Audio
+            </audio>
+            <!-- JavaScript portion -->
+            <script>
+                var audio = document.getElementById("Hollow");
+                audio.volume = 0.1;
+            </script>
+        <div class="overlay"></div>
+            <div class="text">
+                <h2>Welcome To</h2>
+                <h3>NKAY'S Goated Page</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iste suscipit reiciendis vero eaque error voluptatem nisi, possimus nam laboriosam delectus aut provident deleniti minima, exercitationem cupiditate consectetur nemo architecto!
+                </p>
+                <a href="#">Explore</a>
+                <ul class="social">
+                    <!--<li><img src="instagram.png"</li>-->
+                </ul>
+        </div>
+    </body>
 </html>

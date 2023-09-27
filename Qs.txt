@@ -9,4 +9,15 @@ What is h2, h3, and p in html?
 
 html is the formatting and placement
 CSS is the style 
-JavaScript is the animation and interaction. 
+JavaScript is the animation and interaction.
+
+"controls" is a flag
+
+Things I wanna add:
+- music. 
+- a pause button that darkens the background. similar to: https://codepen.io/dudleystorey/pen/BaPeZP
+- a button that also pauses the background. 
+- a transparent box for the text to be on. 
+- make the video crop with scaling of the window
+
+JavaScript can also be included inside of HTML code. 
